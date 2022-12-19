@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ab36786ada44f8aff1ca1ca491450e, type: 3}
+  m_Name: GameCfg
+  m_EditorClassIdentifier: 
+  test: test111
+  materials:
+  - asset: {fileID: 2100000, guid: ec873b5c6d4f9ce4d84a05cad6b29a98, type: 2}
+    assetPath: Assets/Resources/Content/Resources/12/TestMaterial1.mat
+    path: 12/TestMaterial1
+  - asset: {fileID: 0}
+    assetPath: 
+    path: 
+  scenes:
+  - asset: {fileID: 102900000, guid: 821e8353a41e4f64fa19942874dff1f6, type: 3}
+    assetPath: Assets/_Scenes/MainMenu.unity
+    path: Assets/_Scenes/MainMenu.unity
+  - asset: {fileID: 102900000, guid: 6d89dc43300b9b34d8c8e48e87c619fd, type: 3}
+    assetPath: Assets/_Scenes/LevelCommon.unity
+    path: 
+  mainScene:
+    asset: {fileID: 102900000, guid: 821e8353a41e4f64fa19942874dff1f6, type: 3}
+    assetPath: Assets/_Scenes/MainMenu.unity
+    path: Assets/_Scenes/MainMenu.unity
